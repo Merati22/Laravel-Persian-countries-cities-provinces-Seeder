@@ -13,36 +13,7 @@ class DatabaseSeeder extends Seeder
      * @return void
      */
     public function run()
-    {
-        DB::table('products')->delete();
-
-        $products = [
-            [
-                'id' => 1,
-                'name' => 'آریو',
-                'description' => 'دماسنج غیرتماسی',
-                'price' => 1200000,
-                'image' => 'Products/ario.png'
-            ],
-            [
-                'id' => 2,
-                'name' => 'آریوفون',
-                'description' => 'دماسنج قابل اتصال به موبایل',
-                'price' => 1200000,
-                'image' => 'Products/arioPhone.png'
-            ],
-            [
-                'id' => 3,
-                'name' => 'آریو بی تی',
-                'description' => 'دماسنج بلوتوثی',
-                'price' => 1200000,
-                'image' => 'Products/arioBT.png'
-            ],
-
-        ];
-
-        DB::table('products')->insert($products);
-
+        
         DB::table('countries')->delete();
 
         $countries = [
