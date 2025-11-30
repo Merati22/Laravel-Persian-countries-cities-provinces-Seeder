@@ -1,23 +1,40 @@
-# Laravel-Persian-countries-cities-provinces-Seeder
-## This is a complete list of **countries** of whole world and also **Iran**'s **provinces** and **cities** in Laravel.
+# Laravel Persian Countries, Cities & Provinces Seeder
 
+A comprehensive Laravel seeder package containing a complete list of **countries** from around the world, along with **Iran's provinces** and **cities**.
 
-All you should do is run these commands. 
+## Installation
 
+### Step 1: Run Migrations
+Create the necessary database tables by running:
+```bash
+php artisan migrate
+```
 
-it's for creating database :
+### Step 2: Seed the Database
+Insert countries, provinces, and cities into your database:
+```bash
+php artisan db:seed
+```
 
+That's it! Your database is now populated with all the location data.
 
-`php artisan migrate`
+## Issues & Support
 
+If you encounter any problems, please feel free to open an issue in the repository.
 
-and this is for inserting countries, provinces and cities into tables :
+## Contributing
 
+Contributions are welcome! Feel free to submit pull requests or suggest improvements.
 
-`php artisan db:seed`
+## Acknowledgments
 
-it's done!
+**Thanks for using this package!**  
+Feel free to use it, contribute to it, and remember us with a Salavat! 🙏
 
-tell me if it has any problem.
+## License
 
-**Thanks**
+This project is licensed under the **Salavat License** - see the [LICENSE](LICENSE) file for details.
+
+This is a permissive license based on MIT, with a kind request for users to say a Salavat for the author when using this software.
+
+**اللهم صل علی محمد و آل محمد**
